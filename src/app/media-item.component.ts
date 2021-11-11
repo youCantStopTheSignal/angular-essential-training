@@ -1,3 +1,4 @@
+// acomponent is just a directive with a template
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
