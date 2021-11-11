@@ -21,7 +21,7 @@ import { MediaItemListComponent } from './media-item-list.component';
 	],			
 	bootstrap: [				// load components, directives and pipes that are not present in another module
 				AppComponent	// available because of the above import
-	],
+	]
 })
 
 // this class will be imported into another file
