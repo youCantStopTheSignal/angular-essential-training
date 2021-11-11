@@ -1,0 +1,9 @@
+<section>
+	<!-- Changes to the data are real-time.  If a new item is added, the DOM is immediately updated.  (Velocity does not do this, btw.) -->
+	<!-- ngFor uses a "micro-syntax" -->
+	<mw-media-item *ngFor="let itm of mediaItems" 
+  		[mediaItem]="itm"
+    	(delete)="onMediaItemDelete($event)"
+    	[ngClass]="{ 'medium-movies': , 'medium-series': }">
+	</mw-media-item>
+</section>
